@@ -1,0 +1,46 @@
+body{
+	background-color:#1B1E25;
+}
+
+/* Header */
+
+.header{
+	background-image:url(../img/backgrounds/writing.jpg);
+	background-size:cover;
+	color:#fff;
+}
+
+.header .first-name, .last-name{
+	position:relative;
+	cursor:default;
+}
+
+.header .first-name{
+	font-weight:100;
+	left:200px;
+}
+
+.header .last-name{
+	left:150px;
+	bottom:30px;
+	color:#485eef;
+	font-weight:bold;
+}
+
+/* Sidebar Navigation */
+
+.projects{
+	text-align:right;
+	font-size:2rem;
+}
+
+.projects a{
+	list-style:none;
+	color:#fff;
+	transition:padding-right 200ms ease;
+}
+
+.projects a:hover{
+	border-right:1px solid #485EEF;
+	padding-right:10px;
+}
