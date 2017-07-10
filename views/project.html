@@ -1,1 +1,12 @@
-<h1 style="color:white;">test</h1>
+<div class="row">
+	<div class="nav three columns">
+		<ul class="projects" ng-repeat="project in allProjects">
+			<li><a href="#!/{{$index}}">{{project.name}}</a></li>
+		</ul>
+	</div>
+	<div class="body nine columns">
+		<img ng-src="{{projects.img}}" />
+	</div>
+</div>
+
+<!--<h1 style="color:white;">{{hello}}</h1>-->

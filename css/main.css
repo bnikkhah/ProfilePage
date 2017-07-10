@@ -34,6 +34,10 @@ body{
 	font-size:2rem;
 }
 
+.nav{
+	margin-top:50px;
+}
+
 .projects a{
 	list-style:none;
 	color:#fff;
@@ -43,4 +47,11 @@ body{
 .projects a:hover{
 	border-right:1px solid #485EEF;
 	padding-right:10px;
+}
+
+/* Main body */
+
+.body img{
+	max-height:100%;
+	max-width:100%;
 }

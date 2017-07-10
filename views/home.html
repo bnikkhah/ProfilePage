@@ -1,11 +1,9 @@
 <div class="row">
-	<div class="three columns">
+	<div class="nav three columns">
 		<ul class="projects" ng-repeat="project in projects">
-			<li><a href="#!/{{$index}}">{{project}}</a></li>
+			<li><a href="#!/{{$index}}">{{project.name}}</a></li>
 		</ul>
 	</div>
-	<div class="nine columns">
-		<div class="body">
-		</div>
+	<div class="body nine columns">
 	</div>
 </div>
