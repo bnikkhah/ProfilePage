@@ -3,7 +3,7 @@ app.factory('projectsService', [function(){
 		projects: [
 		{
 			name:'Jumpstart',
-			img:'img/Fotomatic.png'
+			img:'img/Jumpstart.png'
 		},
 		{
 			name:'Junction',
