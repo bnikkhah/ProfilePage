@@ -46,6 +46,18 @@ body{
 	padding-right:10px;
 }
 
+/*.projects span{
+	list-style:none;
+	color:#fff;
+	transition:padding-right 200ms ease;
+	cursor:default;
+}
+
+.projects span:hover{
+	border-right:1px solid #485EEF;
+	padding-right:10px;
+}*/
+
 /* Main body */
 
 .body{
@@ -57,7 +69,7 @@ body{
 .body img{
 	/*max-height:100%;*/
 	max-width:100%;
-	filter: blur(5px);
+	filter: blur(2px) grayscale(100%);
 	transition: filter 200ms ease-in-out;
 }
 
