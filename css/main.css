@@ -111,9 +111,7 @@ body{
 .footer{
 	background-color:#4d566a;
 	position:absolute;
-	right:0;
-	bottom:0;
-	left:0;
+	width:100%;
 	padding:5px 0;
 	color:#fff;
 	cursor:default;
