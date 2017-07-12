@@ -26,11 +26,11 @@ app.factory('projectsService', [function(){
 			img:'img/Fotomatic.png'
 		},
 		{
-			name:'SecretAgentSupply',
+			name:'SAS',
 			img:'img/SecretAgentSupply.png'
 		},
 		{
-			name:'TortoiseshellOptics',
+			name:'TorOptics',
 			img:'img/TortoiseshellOptics.png'
 		}
 		]

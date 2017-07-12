@@ -10,6 +10,5 @@ app.controller('HomeController', ['$scope', 'projectsService',
 			//return projectsService.projects[index].img;
 			//return index;
 			$scope.selectedIndex = index;
-		}
-
+		};
 }]);
