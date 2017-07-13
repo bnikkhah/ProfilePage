@@ -6,6 +6,28 @@ body{
 	margin:0;
 }
 
+/*
+ *  STYLE 3
+ *  Scrollbar belongs to Devstreak on Codepen
+ */
+
+#style-3::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+#style-3::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+#style-3::-webkit-scrollbar-thumb
+{
+	background-color: #000000;
+}
+
 /* Header */
 
 .header{
@@ -79,9 +101,13 @@ body{
 
 /* Main body */
 
+.columns{
+	margin-left:0;
+}
+
 .body{
-	overflow:hidden;
-	height:500px;
+	overflow:auto;
+	max-height:500px;
 	text-align:center;
 }
 
