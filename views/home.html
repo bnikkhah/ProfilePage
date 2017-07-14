@@ -1,8 +1,8 @@
-<div class="nav three columns">
+<div class="nav two columns">
 	<ul class="projects" ng-repeat="project in projects">
 		<li><a ng-model="view" href="{{project.img}}" target="_blank" ng-mouseenter="mouseOver($index)">{{project.name}}</a></li>
 	</ul>
 </div>
-<div class="body nine columns" id="style-3">
+<div class="body ten columns" id="style-3">
 	<a href="{{projects[selectedIndex].img}}" target="_blank"><img my-src="{{projects[selectedIndex].img}}" /></a>
 </div>
